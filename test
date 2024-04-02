@@ -7,7 +7,7 @@ node("class5"){
     }
     stage("execute"){
         sh "ls -l"
-        sh '"/Users/amit/Desktop/2.4.24 Class7/.venv/bin/python" main.py'
+        sh '"/Users/amit/Desktop/2.4.24 Class7/.venv/bin/python" diskr.py'
 
 
     }
