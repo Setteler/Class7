@@ -1,3 +1,4 @@
+properties([pipelineTriggers([pollSCM('* * * * *')])])
 node("class5"){
     stage("clone"){
         git branch: 'main', url: 'https://github.com/Setteler/Class7.git'
