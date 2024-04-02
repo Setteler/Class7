@@ -1,0 +1,13 @@
+node("class5"){
+    stage("clone"){
+        git branch: 'main', url: 'https://github.com/Setteler/Class7.git'
+
+
+    }
+    stage("execute"){
+        sh "ls -l"
+        sh '"/Users/amit/Desktop/2.4.24 Class7/.venv/bin/python" main.py'
+
+
+    }
+}
